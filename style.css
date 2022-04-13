@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lobster&family=Palette+Mosaic&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', 'Lobster', 'Palette Mosaic';
+}
+
+body{
+    background-color: #14213d;
+}
+
+header{                     /* PARTE DE CIMA */
+    background: #000000;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    background: #14213d;
+    padding: 10px;
+    align-items: center;
+}
+
+h1{                     /* TODOS H1 */
+    color: #ffffff;
+    font-weight: 200;
+    transition: 0.5s;
+    font-size: 44px;
+}
+
+.menu a{
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.menu a:hover{
+    color: #38b000;
+}
+
+
+h2{                       /* TODOS H2 */
+    margin-top: 40px;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 200;
+    text-align: center;
+}
+
+iframe{                   /* TODOS OS VIDEOS */
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 6px;
+    
+}
+
+h3{                       /* TODOS H3 */
+    color: #ffffff;
+    margin-top: 13px;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+.rodape{
+    background-color: #38b000;
+    padding: 20px;
+    text-align: center;
+    font-weight: 200;
+
+
+}
+
+span{                    /* TODAS SPAN */
+    font-size: 22px;
+    color: black;
+}
+
+.nomemusica{     /*SPAN DO NOME DAS MUSICAS EM VERDE*/
+    font-family: 'Lobster';
+    font-size: 30px;
+    color: #38b000;
+    font-weight: 400;
+
+}
+
+
+.grau{                  /*SPAN DO NOME GRAU VERDE*/
+    font-size: 33px;
+    color: #38b000;
+    font-weight: 200;
+    transition: 0.5s;
+    font-family: 'Lobster';
+}
+
+.patrocinadores{       /*SPAN DO NOME "PATROCINADORES" NO FOOTER*/
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.direitos{            /*SPAN DO NOME "DIREITOS RESERVADOS" NO FOOTER */
+    font-size: 25px;
+}
+
+.brasil{          /* SPAN NO NOME "BRASILEIRAS" DO "BRASIL" EM VERDE */
+    font-size: 44px;
+    color: #38b000;
+
+}
+
+
+.ps h3{
+    margin-top: 30px;
+    font-size: 30px;
+    color: black;
+}
+
+.ps h2{
+    color: black;
+}
+
+footer{
+    margin-top: 90px;
+}
+
+.outrasmusicas{
+    margin-top: 200px;
+}
+
+.youtubeicon{
+    font-size: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 30px;
+    color: #38b000;
+}
+
+.fundoyoutube{
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.youtube{
+    margin-top: 0;
+    color: #38b000;
+}
+
+.cliqueaqui{
+    font-size: 30px;
+    color: #38b000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 400px ) {
+
+
+
+    .menu a{
+        text-decoration: none;
+        color: #ffffff;
+        text-transform: uppercase;
+        font-size: 33px;
+        font-weight: 200;
+        padding: 10px;
+        transition: 0.5s;
+    }
+
+    .menu a:hover{
+        color: #38b000;
+    }
+
+
+
+    
+    
+}
