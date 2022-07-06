@@ -1,2 +1,2 @@
 # MusicGrau
-Projeto de site com exemplo de musicas brasileiras feito em HTML e CSS
+Site simples com exemplos de musicas brasileiras feito com HTML e CSS
